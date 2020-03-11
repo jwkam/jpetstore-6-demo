@@ -50,12 +50,23 @@
   </ciManagement>
 	
   <distributionManagement>
+    <site>
+      <id>gh-pages</id>
+      <name>Mybatis GitHub Pages</name>
+      <url>git:ssh://git@github.com/mybatis/jpetstore-6.git?gh-pages#</url>
+    </site>
+    <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <name>nexus-snapshots</name>
+      <url>http://10.20.200.111:30565/repository/maven-snapshots/</url>
+    </snapshotRepository>
     <repository>
-	<id>nexus165</id>
-	<name>nexus165</name>
-	<url>http://10.20.200.165:32356/repository/maven-central/</url>
-    </repository>
-  </distributionManagement>	
+      <id>nexus-releases</id>
+      <name>nexus-releases</name>
+      <url>http://10.20.200.111:30565/repository/maven-releases/</url>
+    </repository>  
+  </distributionManagement>
+	
   
 <!--
   <distributionManagement>
