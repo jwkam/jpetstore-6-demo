@@ -415,8 +415,8 @@
 	
   <repositories>
     <repository>
-      <id>maven-group</id>
-      <url>http://10.20.200.111:30565/repository/maven-releases/</url>
+      <id>nexus165</id>
+      <url>http://10.20.200.165:32356/repository/maven-releases/</url>
 	<releases>
        	<enabled>true</enabled>
 	</releases>           
