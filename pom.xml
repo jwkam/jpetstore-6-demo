@@ -53,7 +53,7 @@
     <repository>
 	<id>nexus165</id>
 	<name>nexus165</name>
-	<url>http://10.20.200.165:32356/repository/maven-releases/</url>
+	<url>http://10.20.200.165:32356/repository/maven-central/</url>
     </repository>
   </distributionManagement>	
   
