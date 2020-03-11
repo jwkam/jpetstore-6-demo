@@ -48,12 +48,23 @@
     <system>Travis CI</system>
     <url>https://travis-ci.org/mybatis/jpetstore-6</url>
   </ciManagement>
+	
+  <distributionManagement>
+    <repository>
+	<id>nexus165</id>
+	<name>nexus165</name>
+	<url>http://10.20.200.165:32356/repository/maven-releases/</url>
+    </repository>
+  </distributionManagement>	
+  
+<!--
   <distributionManagement>
     <site>
       <id>gh-pages</id>
       <name>Mybatis GitHub Pages</name>
       <url>git:ssh://git@github.com/mybatis/jpetstore-6.git?gh-pages#</url>
     </site>
+-->
 	  <!--
     <snapshotRepository>
       <id>nexus-snapshots</id>
@@ -66,7 +77,9 @@
       <url>http://10.20.200.60:32247/repository/maven-releases/</url>
     </repository>         
 	  -->
+<!--	
   </distributionManagement>
+-->
 
   <dependencies>
     <dependency>
@@ -412,7 +425,7 @@
       </build>
     </profile>
   </profiles>
-	
+<!--	
   <repositories>
     <repository>
       <id>nexus165</id>
@@ -422,5 +435,5 @@
 	</releases>           
     </repository>
   </repositories>
-
+-->
 </project>
