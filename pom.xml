@@ -412,7 +412,7 @@
       </build>
     </profile>
   </profiles>
-	<!--
+	
   <repositories>
     <repository>
       <id>maven-group</id>
@@ -422,5 +422,5 @@
 	</releases>           
     </repository>
   </repositories>
--->
+
 </project>
